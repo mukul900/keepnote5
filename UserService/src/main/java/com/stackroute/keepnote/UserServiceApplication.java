@@ -2,12 +2,13 @@ package com.stackroute.keepnote;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.EnableAspectJAutoProxy;
 
 /*
  * The @SpringBootApplication annotation is equivalent to using @Configuration, @EnableAutoConfiguration 
  * and @ComponentScan with their default attributes
  */
-
+@EnableAspectJAutoProxy
 @SpringBootApplication
 public class UserServiceApplication {
 
